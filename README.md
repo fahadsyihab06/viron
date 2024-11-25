@@ -49,11 +49,7 @@ nano nama_file.vr
 
 3. *Menampilkan Versi:* Untuk mengetahui versi dari Viron:
 ```bash
-./viron --versi
-
-Output:
-
-Viron Versi 1.0 - Dibuat oleh Fahad
+./viron --version
 ```
 
 ## **Documentasi Sintaks-Sintaks Viron**

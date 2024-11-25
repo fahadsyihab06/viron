@@ -10,21 +10,22 @@ Untuk menjalankan **Viron**, Anda perlu memiliki compiler **GCC** yang sudah ter
 
 ### Langkah-langkah instalasi:
 
-1. **Kloning repository ini** ke dalam folder lokal:
+1. **Instalasi untuk termux**
     ```bash
-    git clone https://github.com/[USERNAME]/viron.git
+    git clone https://github.com/fahadsyihab06/viron.git
     cd viron
+    mv -f viron ../usr/bin
+    mv -f viron.nanorc ../usr/share/nano
+    cd
     ```
-
-2. **Kompilasi kode sumber** menggunakan **GCC**:
-    ```bash
-    gcc viron.c -o viron
-    ```
-
-3. **Jalankan program Viron**:
-    ```bash
-    ./viron --help
-    ```
+2. **Instalasi untuk Kali Linux, ubuntu, kali debian, dll**
+```bash
+git clone https://github.com/fahadsyihab06/viron.git
+    cd viron
+    mv -f viron ../usr/bin
+    mv -f viron.nanorc ../usr/share/nano
+    cd
+```
 
 Ini akan menghasilkan program executable bernama `viron`.
 

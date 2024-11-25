@@ -19,13 +19,13 @@ Untuk menjalankan **Viron**, Anda perlu memiliki compiler **GCC** yang sudah ter
     cd
     ```
 2. **Instalasi untuk Kali Linux, ubuntu, kali debian, dll**
-```bash
-git clone https://github.com/fahadsyihab06/viron.git
-    cd viron
-    mv -f viron ../usr/bin
-    mv -f viron.nanorc ../usr/share/nano
-    cd
-```
+   ```bash
+git clone                           https://github.com/fahadsyihab06/viron.git
+cd viron
+mv -f viron ../usr/bin
+mv -f viron.nanorc ../usr/share/nano
+cd
+    ```
 
 Ini akan menghasilkan program executable bernama `viron`.
 

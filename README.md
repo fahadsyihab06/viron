@@ -2,24 +2,6 @@
 
 **Viron** adalah bahasa pemrograman sederhana yang terinspirasi oleh Bash, dengan sintaksis yang mudah digunakan dan dirancang untuk berbagai keperluan skrip dan otomatisasi.
 
-## **Fitur Utama:**
-- **Komentar**
-- **Variabel**
-- **Tipe Data**
-- **Input/Output**
-- **Operator Matematika**
-- **Pengkondisian**
-- **Looping**
-- **Fungsi**
-- **Operasi String**
-- **Array**
-- **Redirection dan Pipes**
-- **Komunikasi Sistem**
-- **Error Handling**
-- **Modularitas**
-- **Ekspansi Variabel**
-- **Logical Operators**
-
 ---
 
 ## **Instalasi**

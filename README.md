@@ -44,12 +44,12 @@ nano nama_file.vr
 
 1. *Menampilkan Bantuan:* Untuk melihat bantuan tentang penggunaan program
 ```bash
-./viron --help
+viron --help
 ```
 
 3. *Menampilkan Versi:* Untuk mengetahui versi dari Viron:
 ```bash
-./viron --version
+viron --version
 ```
 
 ## **Documentasi Sintaks-Sintaks Viron**

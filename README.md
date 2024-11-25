@@ -234,7 +234,7 @@ Tanggal Rilis: [ 25/11/2024 ]
 Repository GitHub: [ https://github.com/fahadsyihab06/viron ]
 
 SUBSCRIBE!
-YouTube: [ https://youtube.com/TC2036 ]
+YouTube: [ <a href="https://youtube.com/TC2036">Subscribe YouTube</a> ]
 
 Traktir kopi ☕
 Saweran: [ https://saweria.co/tc20 ]

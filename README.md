@@ -226,8 +226,8 @@ Nama: Fahad
 
 Versi: 1.0
 
-Tanggal Rilis: [Tanggal Rilis]
+Tanggal Rilis: [ 25/11/2024 ]
 
-Repository GitHub: [Link Repository GitHub]
+Repository GitHub: [ https://github.com/fahadsyihab06/viron ]
 
 ```

@@ -20,11 +20,11 @@ Untuk menjalankan **Viron**, Anda perlu memiliki compiler **GCC** yang sudah ter
     ```
 2. **Instalasi untuk Kali Linux, ubuntu, kali debian, dll**
    ```bash
-git clone                           https://github.com/fahadsyihab06/viron.git
-cd viron
-mv -f viron ../usr/bin
-mv -f viron.nanorc ../usr/share/nano
-cd
+   git clone                           https://github.com/fahadsyihab06/viron.git
+   cd viron
+   mv -f viron ../usr/bin
+   mv -f viron.nanorc ../usr/share/nano
+   cd
     ```
 
 Ini akan menghasilkan program executable bernama `viron`.
@@ -33,7 +33,10 @@ Ini akan menghasilkan program executable bernama `viron`.
 
 ## **Menjalankan Skrip Viron**
 
-Setelah **Viron** berhasil terinstal, Anda dapat menjalankan skrip **Viron** dengan ekstensi `.vr` menggunakan perintah berikut:
+Setelah bahasa pemrograman **Viron** berhasil terinstal, Anda dapat menjalankan bahasa pemrograman **Viron** dengan ekstensi `.vr`, untuk memulai coding, kita bisa menggunakan nano.
 
 ```bash
-./viron script.vr
+nano nama_file.vr
+```
+
+## **Documentasi Sintax Viron**

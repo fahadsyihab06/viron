@@ -6,14 +6,13 @@
 
 ## **Instalasi**
 
-Untuk menjalankan **Viron**, Anda perlu memiliki compiler **GCC** yang sudah terpasang di sistem Anda.
-
 ### Langkah-langkah instalasi:
 
 1. **Instalasi untuk termux**
     ```bash
     git clone https://github.com/fahadsyihab06/viron.git
     cd viron
+    chmod +x viron
     mv -f viron ../usr/bin
     mv -f viron.nanorc ../usr/share/nano
     cd
@@ -22,6 +21,7 @@ Untuk menjalankan **Viron**, Anda perlu memiliki compiler **GCC** yang sudah ter
    ```bash
    git clone                           https://github.com/fahadsyihab06/viron.git
    cd viron
+   chmod +x viron
    mv -f viron ../usr/bin
    mv -f viron.nanorc ../usr/share/nano
    cd
@@ -237,4 +237,9 @@ Tanggal Rilis: [ 25/11/2024 ]
 
 Repository GitHub: [ https://github.com/fahadsyihab06/viron ]
 
+SUBSCRIBE!
+YouTube: [ https://youtube.com/TC2036 ]
+
+Traktir kopi ☕
+Saweran: [ https://saweria.co/tc20 ]
 ```

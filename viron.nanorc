@@ -1,0 +1,21 @@
+# Syntax highlighting untuk file .vr
+syntax viron "\.vr$"
+header "^#!.*viron"
+
+# Aturan warna untuk komentar
+color blue "#.*"
+
+# Aturan warna untuk string
+color yellow "\".*?\""
+
+# Aturan warna untuk angka
+color cyan "[0-9]+"
+
+# Aturan warna untuk kata kunci
+color green "\b(jika|ulang|astagfirullah|untuk|return)\b"
+
+# Aturan warna untuk tanda kurung
+color red "[\{\}]"
+
+# Aturan warna untuk operator
+color brightwhite "(==|!=|<=|>=|&&|\|\||\+|\-|\*|\/|%|&|\^|\||<<|>>)"

@@ -97,96 +97,105 @@ cetak "Halo, $nama!"
 ```
 
 *5. Operator Matematika*
-
+```bash
 Gunakan math untuk melakukan operasi matematika.
 
 math 5 + 3
 math 10 * 2
+```
 
-6. Pengkondisian
-
+*6. Pengkondisian*
+```bash
 Struktur kondisi menggunakan jika.
 
 jika 5 > 3
 cetak "Kondisi benar!"
+```
 
-7. Looping
-
+*7. Looping*
+```bash
 Untuk melakukan perulangan, gunakan ulang.
 
 ulang 1 5
+```
 
-8. Fungsi
-
+*8. Fungsi*
+```bash
 Fungsi dapat digunakan untuk modularitas dan pengorganisasian kode.
 
 fungsi tambah
     math 5 + 5
     cetak "Hasil: 10"
+```
 
-9. Operasi String
-
+*9. Operasi String*
+```bash
 Melakukan operasi seperti penggabungan string menggunakan tanda +.
 
 baca nama
 cetak "Halo, " + $nama
+```
 
-10. Array
-
+*10. Array*
+```bash
 Array bisa diakses menggunakan indeks.
 
 array nama[0] = "Fahad"
 array nama[1] = "Roger"
 cetak $nama[0]
+```
 
-11. Redirection dan Pipes
-
+*11. Redirection dan Pipes*
+```bash
 Anda dapat melakukan redirection dan pipes untuk menjalankan perintah sistem atau mengalihkan output ke file.
 
 sistem ls > file.txt
 sistem cat file.txt | grep "Viron"
+```
 
-12. Komunikasi Sistem
-
+*12. Komunikasi Sistem*
+```bash
 Untuk menjalankan perintah sistem atau shell, gunakan sistem.
 
 sistem echo "Ini adalah perintah sistem"
+```
 
-13. Error Handling
-
+*13. Error Handling*
+```bash
 Jika terjadi error dalam menjalankan perintah, program akan menampilkan pesan kesalahan.
 
 sistem rm tidak_ada_file
+```
 
-14. Modularitas
-
+*14. Modularitas*
+```bash
 Menggunakan fungsi untuk modularisasi kode yang lebih baik.
 
 fungsi hitung
     math 5 + 5
     cetak "Hasil: 10"
+```
 
-15. Ekspansi Variabel
-
+*15. Ekspansi Variabel*
+```bash
 Menggunakan $variabel untuk ekspansi nilai variabel.
 
 baca nama
 ekspansi nama
+```
 
-16. Logical Operators
-
+*16. Logical Operators*
+```bash
 Untuk penggunaan operator logika seperti AND, OR:
 
 jika 5 == 5 && 3 == 3
 cetak "Semua kondisi benar!"
+```
 
+**Contoh Skrip Viron Sederhana**
 
----
-
-Contoh Skrip Viron
-
-Berikut adalah contoh skrip Viron lengkap:
-
+*Berikut adalah contoh skrip Viron lengkap:*
+```bash
 # Ini adalah komentar
 cetak "Selamat datang di Viron!"
 
@@ -207,13 +216,11 @@ ulang 1 3
 
 # Komunikasi Sistem
 sistem echo "Selesai menjalankan script."
+```
 
+# Informasi Developer
 
----
-
-Informasi Developer
-
-Viron dikembangkan oleh:
+```Viron dikembangkan oleh:
 
 Nama: Fahad
 
@@ -223,11 +230,4 @@ Tanggal Rilis: [Tanggal Rilis]
 
 Repository GitHub: [Link Repository GitHub]
 
-
-
----
-
-Lisensi
-
-Proyek ini dilisensikan di bawah lisensi MIT - lihat file LICENSE untuk informasi lebih lanjut.
-
+```

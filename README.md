@@ -39,4 +39,195 @@ Setelah bahasa pemrograman **Viron** berhasil terinstal, Anda dapat menjalankan 
 nano nama_file.vr
 ```
 
-## **Documentasi Sintax Viron**
+## **Opsi Viron**
+**Opsi yang Tersedia**
+
+1. *Menampilkan Bantuan:* Untuk melihat bantuan tentang penggunaan program
+```bash
+./viron --help
+```
+
+3. *Menampilkan Versi:* Untuk mengetahui versi dari Viron:
+```bash
+./viron --versi
+
+Output:
+
+Viron Versi 1.0 - Dibuat oleh Fahad
+```
+
+## **Documentasi Sintaks-Sintaks Viron**
+
+**Berikut adalah penjelasan tentang sintaks yang tersedia di dalam Viron:**
+
+*1. Komentar*
+```bash
+Komentar diawali dengan tanda # dan akan diabaikan saat program dijalankan.
+
+# Ini adalah komentar
+cetak "Program berjalan"
+```
+
+*2. Variabel*
+```bash
+Tidak perlu deklarasi tipe variabel, cukup gunakan baca untuk input dan $variabel untuk mengakses nilai variabel.
+
+baca nama
+cetak "Halo, $nama!"
+```
+
+*3. Tipe Data*
+```bash
+Tipe data didukung secara otomatis oleh Viron, misalnya string, integer, dan float dapat digunakan langsung.
+
+# Tipe data string
+baca nama
+cetak "Nama: $nama"
+
+# Tipe data integer
+math 10 + 5
+```
+
+*4. Input/Output*
+```bash
+Untuk menerima input dari pengguna, gunakan baca. Untuk menampilkan output, gunakan cetak.
+
+baca nama
+cetak "Halo, $nama!"
+```
+
+*5. Operator Matematika*
+
+Gunakan math untuk melakukan operasi matematika.
+
+math 5 + 3
+math 10 * 2
+
+6. Pengkondisian
+
+Struktur kondisi menggunakan jika.
+
+jika 5 > 3
+cetak "Kondisi benar!"
+
+7. Looping
+
+Untuk melakukan perulangan, gunakan ulang.
+
+ulang 1 5
+
+8. Fungsi
+
+Fungsi dapat digunakan untuk modularitas dan pengorganisasian kode.
+
+fungsi tambah
+    math 5 + 5
+    cetak "Hasil: 10"
+
+9. Operasi String
+
+Melakukan operasi seperti penggabungan string menggunakan tanda +.
+
+baca nama
+cetak "Halo, " + $nama
+
+10. Array
+
+Array bisa diakses menggunakan indeks.
+
+array nama[0] = "Fahad"
+array nama[1] = "Roger"
+cetak $nama[0]
+
+11. Redirection dan Pipes
+
+Anda dapat melakukan redirection dan pipes untuk menjalankan perintah sistem atau mengalihkan output ke file.
+
+sistem ls > file.txt
+sistem cat file.txt | grep "Viron"
+
+12. Komunikasi Sistem
+
+Untuk menjalankan perintah sistem atau shell, gunakan sistem.
+
+sistem echo "Ini adalah perintah sistem"
+
+13. Error Handling
+
+Jika terjadi error dalam menjalankan perintah, program akan menampilkan pesan kesalahan.
+
+sistem rm tidak_ada_file
+
+14. Modularitas
+
+Menggunakan fungsi untuk modularisasi kode yang lebih baik.
+
+fungsi hitung
+    math 5 + 5
+    cetak "Hasil: 10"
+
+15. Ekspansi Variabel
+
+Menggunakan $variabel untuk ekspansi nilai variabel.
+
+baca nama
+ekspansi nama
+
+16. Logical Operators
+
+Untuk penggunaan operator logika seperti AND, OR:
+
+jika 5 == 5 && 3 == 3
+cetak "Semua kondisi benar!"
+
+
+---
+
+Contoh Skrip Viron
+
+Berikut adalah contoh skrip Viron lengkap:
+
+# Ini adalah komentar
+cetak "Selamat datang di Viron!"
+
+# Variabel
+baca nama
+cetak "Halo, $nama!"
+
+# Matematika
+math 10 + 5
+math 20 / 4
+
+# Pengkondisian
+jika 10 > 5
+cetak "Kondisi benar!"
+
+# Looping
+ulang 1 3
+
+# Komunikasi Sistem
+sistem echo "Selesai menjalankan script."
+
+
+---
+
+Informasi Developer
+
+Viron dikembangkan oleh:
+
+Nama: Fahad
+
+Versi: 1.0
+
+Tanggal Rilis: [Tanggal Rilis]
+
+Repository GitHub: [Link Repository GitHub]
+
+
+
+---
+
+Lisensi
+
+Proyek ini dilisensikan di bawah lisensi MIT - lihat file LICENSE untuk informasi lebih lanjut.
+

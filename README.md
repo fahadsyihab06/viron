@@ -19,7 +19,7 @@
     ```
 2. **Instalasi untuk Kali Linux, ubuntu, kali debian, dll**
    ```bash
-   git clone                           https://github.com/fahadsyihab06/viron.git
+   git clone https://github.com/fahadsyihab06/viron.git
    cd viron
    chmod +x viron
    mv -f viron ../usr/bin

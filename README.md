@@ -237,7 +237,7 @@ Repository GitHub:
 https://github.com/fahadsyihab06/viron
 
 SUBSCRIBE!
-YouTube: <a href="https://youtube.com/TC20367">Subscribe YouTube</a> 
+YouTube: <a href="https://youtube.com/@tc20367?si=WJaTF5lJOftLFyNf">Subscribe YouTube</a> 
 
 Traktir kopi ☕
 Saweran: [ https://saweria.co/tc20 ]

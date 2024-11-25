@@ -60,6 +60,13 @@ Viron Versi 1.0 - Dibuat oleh Fahad
 
 **Berikut adalah penjelasan tentang sintaks yang tersedia di dalam Viron:**
 
+*0. Mencetak pesan*
+```bash
+uniknya cara mencetak pesan bahasa pemrograman viron adalah dengan menuliskan `astaghfirullah` seperti ini
+
+astagfirullah "Hello, World!"
+```
+
 *1. Komentar*
 ```bash
 Komentar diawali dengan tanda # dan akan diabaikan saat program dijalankan.
@@ -73,7 +80,7 @@ cetak "Program berjalan"
 Tidak perlu deklarasi tipe variabel, cukup gunakan baca untuk input dan $variabel untuk mengakses nilai variabel.
 
 baca nama
-cetak "Halo, $nama!"
+astagfirullah "Halo, $nama!"
 ```
 
 *3. Tipe Data*
@@ -82,7 +89,7 @@ Tipe data didukung secara otomatis oleh Viron, misalnya string, integer, dan flo
 
 # Tipe data string
 baca nama
-cetak "Nama: $nama"
+astagfirullah "Nama: $nama"
 
 # Tipe data integer
 math 10 + 5
@@ -93,7 +100,7 @@ math 10 + 5
 Untuk menerima input dari pengguna, gunakan baca. Untuk menampilkan output, gunakan cetak.
 
 baca nama
-cetak "Halo, $nama!"
+astagfirullah "Halo, $nama!"
 ```
 
 *5. Operator Matematika*
@@ -109,7 +116,7 @@ math 10 * 2
 Struktur kondisi menggunakan jika.
 
 jika 5 > 3
-cetak "Kondisi benar!"
+astagfirullah "Kondisi benar!"
 ```
 
 *7. Looping*
@@ -125,7 +132,7 @@ Fungsi dapat digunakan untuk modularitas dan pengorganisasian kode.
 
 fungsi tambah
     math 5 + 5
-    cetak "Hasil: 10"
+    astagfirullah "Hasil: 10"
 ```
 
 *9. Operasi String*
@@ -133,7 +140,7 @@ fungsi tambah
 Melakukan operasi seperti penggabungan string menggunakan tanda +.
 
 baca nama
-cetak "Halo, " + $nama
+astagfirullah "Halo, " + $nama
 ```
 
 *10. Array*

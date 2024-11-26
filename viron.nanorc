@@ -12,7 +12,7 @@ color yellow "\".*?\""
 color cyan "[0-9]+"
 
 # Aturan warna untuk kata kunci
-color green "\b(jika|ulang|astagfirullah|untuk|return)\b"
+color green "\b(jika|ulang|cetak|untuk|return)\b"
 
 # Aturan warna untuk tanda kurung
 color red "[\{\}]"

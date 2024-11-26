@@ -13,8 +13,8 @@
     git clone https://github.com/fahadsyihab06/viron.git
     cd viron
     chmod +x viron
-    mv -f viron ../usr/bin
-    mv -f viron.nanorc ../usr/share/nano
+    mv -f viron /data/data/com.termux/files/usr/bin
+    mv -f viron.nanorc /data/data/com.termux/files/usr/share/nano
     cd
     ```
 2. **Instalasi untuk Kali Linux, ubuntu, kali debian, dll**
@@ -22,8 +22,8 @@
    git clone https://github.com/fahadsyihab06/viron.git
    cd viron
    chmod +x viron
-   mv -f viron ../usr/bin
-   mv -f viron.nanorc ../usr/share/nano
+   mv -f viron /usr/bin
+   mv -f viron.nanorc /usr/share/nano
    cd
     ```
 

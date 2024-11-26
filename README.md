@@ -58,7 +58,7 @@ viron --version
 
 *0. Mencetak pesan*
 ```bash
-uniknya cara mencetak pesan bahasa pemrograman viron adalah dengan menuliskan `astaghfirullah` seperti ini
+uniknya cara mencetak pesan bahasa pemrograman viron adalah dengan menuliskan `fahad` seperti ini
 
 astagfirullah "Hello, World!"
 ```
@@ -96,7 +96,7 @@ math 10 + 5
 Untuk menerima input dari pengguna, gunakan baca. Untuk menampilkan output, gunakan cetak.
 
 baca nama
-astagfirullah "Halo, $nama!"
+fahad "Halo, $name"
 ```
 
 *5. Operator Matematika*
